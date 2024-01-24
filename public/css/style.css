@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: max-content;
+    margin:0 auto;
+    padding: 0 250px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.Main_Content{
+    flex-grow: 1;
+}
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+    /* background:rgb(80, 79, 78);  */
+    color: rgb(240, 150, 31);
+    padding: 4px;
+    margin: 10px;
+}
+header a {
+    text-decoration: none;
+    text-align: center;
+    color: rgb(80, 110, 100);
+    margin-right: 12px;
+}
+
+.Portrait1{
+    width: 250px;
+
+}
+
+h1{
+    font-size: 40px;
+    color:rgb(71, 121, 137);
+}
+h4{
+    color:darksalmon;
+}
+img{
+    margin:10px;
+    width:250px;
+}
+form{
+    margin: 10px;
+}
+input{
+    padding: 7px;
+    border: 2px solid rgb(149, 149, 81);
+}
+button{
+    cursor: pointer;
+    padding: 7px;
+    border: 2px solid rgb(149, 149, 81);
+    text-align: center;
+    color: darkslategray;
+    background-color: rgb(200, 190, 207);
+}
+p{
+    color: rgb(9, 68, 70);
+    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+}
+
+h5{
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: teal;
+}
